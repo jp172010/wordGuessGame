@@ -1,0 +1,27 @@
+@font-face{
+    font-family: saiyanSans;
+    src: url(fonts/Saiyan-sans.ttf);
+}
+header, #mainC{
+    font-family: saiyanSans;
+}
+header{
+    font-size: 100px;
+}
+#mainC{
+    float: left;
+    font-size: 30px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(borders/borderFlames.jpg) 50 round;
+}
+img{
+    width: 476px;
+    float: left;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(borders/borderFlames.jpg) 50 round;
+}
+#start, #wins, #current, #correctL, #guess, #guessRem, #letters, #lettersG{
+margin: 20px;
+}
