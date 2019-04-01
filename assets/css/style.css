@@ -2,26 +2,51 @@
     font-family: saiyanSans;
     src: url(fonts/Saiyan-sans.ttf);
 }
-header, #mainC{
+body{
+    text-align: center;
+}
+header, #mainC, figure{
     font-family: saiyanSans;
 }
 header{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-size: 100px;
 }
 #mainC{
-    float: left;
-    font-size: 30px;
+    float: right;
+    font-size: 40px;
     border: 10px solid transparent;
     padding: 15px;
-    border-image: url(borders/borderFlames.jpg) 50 round;
+    border-image: url(borders/backgroundFlames.jpg) 50 round;
+}
+#title{
+    color: #fef851;
+}
+.db{
+    color: #f2873b
+}
+#bz, #style{
+    color: #ed3833;
 }
 img{
     width: 476px;
-    float: left;
     border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(borders/borderFlames.jpg) 50 round;
+    border-image: url(borders/backgroundFlames.jpg) 50 round;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-#start, #wins, #current, #correctL, #guess, #guessRem, #letters, #lettersG{
-margin: 20px;
+#start, #wins, #current, #correctL, #guess, #guessRem, #letters, #lettersG, #win, #hint{
+    margin: 20px;
+    color: #ed3833;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#start, #current, #guess, #letters{
+    color: #fef851;
+}
+figure{
+    font-size: 40px;
+    color: #ed3833
 }

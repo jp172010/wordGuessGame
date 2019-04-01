@@ -7,22 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    <script src="assets/javascript/game.js"></script>
 </head>
-<body>
+<body background="assets/images/electricBorder.jpg">
     <header>
-        <span>Hangman<span>O</span><span>DBZ</span><span>O</span><span>Style</span>
+        <span id="title">Hangman<span class="db">O</span>D<span id="bz">BZ</span><span class="db">O</span><span id="style">Style</span>
     </header>
+    
     <img src="assets/images/dbzSquad.jpg" alt="DBZ Squad">
+    
     <div id="mainC">
-        <div id="start">Press The Space Bar To Get Started</div>
-        <div id="wins">Wins</div>
+        <div id="start">Press Any Key To Get Started</div>
+        <div id="hint">Hint: DragonBall Z Character</div>
+        <div id="wins">Wins: <span id="win"></span></div>
         <div id="current">Current Word</div>
-        <div id ="correctL">- - - - - - -</div>
+        <div><span id ="correctL"></span></div>
         <div id="guess">Number Of Guesses Remaining</div>
-        <div id="guessRem">11</div>
+        <div id="guessRem"></div>
         <div id="letters">Letters Already Guessed</div>
         <div id="lettersG"></div>
     </div>
+    <figure>
+        <figcaption>Listen to the theme song:</figcaption>
+        <audio controls>
+            <source src="assets/audio/Theme.mp3" type="audio/mp3">
+            <p>Your browser doesn't support HTML5 audio.        
+        </audio>
+    </figure>
 </body>
+<script src="assets/javascript/game1.js"></script>
 </html>
