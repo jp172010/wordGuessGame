@@ -90,7 +90,7 @@ document.onkeyup = function (event){
   
         hiddenWord = [];
         for (i = 0; i < name.length; i++) {
-            hiddenWord.push("__");
+            hiddenWord.push("_");
         }
         document.getElementById("correctL").innerHTML = hiddenWord.join(" ");
   
